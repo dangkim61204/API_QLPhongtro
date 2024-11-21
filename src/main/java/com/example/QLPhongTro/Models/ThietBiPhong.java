@@ -23,5 +23,5 @@ public class ThietBiPhong {
     //Nhieu TBP trong 1 phong trọ
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "phongTroId", referencedColumnName = "id")
-    private ThietBiPhong thietBiPhong;
+    private PhongTro phongTro;
 }

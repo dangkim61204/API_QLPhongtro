@@ -32,7 +32,7 @@ public class PhongTro {
     private Khu khu;
 
     //1 phong tro co nhieu  TBP
-    @OneToMany(mappedBy = "thietBiPhong",cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "phongTro",cascade = CascadeType.ALL)
     private List<ThietBiPhong> thietBiPhongs;
 
 
